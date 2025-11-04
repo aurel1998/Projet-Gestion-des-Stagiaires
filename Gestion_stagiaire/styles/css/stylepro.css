@@ -1,0 +1,100 @@
+.clear-element {
+	clear: both;
+}
+
+
+#resultat{
+	    		background-color: gray;
+	    		color: white;
+	    	}
+	    	#resultat .liste{
+	    		height: 10px;
+	    	}
+	    	#resultat .liste a {
+	    		text-decoration: none;
+				background-color: gray;
+	    		color: white;
+	    		}
+	    	
+	    	#resultat .liste a:hover {
+				text-decoration: none;
+				color: #111;
+			}
+
+
+
+
+/* Poour uniquement la recherche dynamique du 
+#search, #resultat, .liste {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 200px;
+}
+#resultat .enfant  {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;	
+}
+#resultat .liste .enfant  {
+	text-decoration: none;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	border:1px solid black;
+	border-top: 0px;
+}
+#resultat .liste .enfant a {
+	text-decoration: none;
+		color: black;
+}
+#search{
+border:1px solid black;}
+
+#resultat
+{
+	position: relative;
+	bottom: 17px;
+}
+#resultat .liste .enfant a:hover, #resultat .liste li:hover {
+	background-color: black;
+	color: white;
+}*/
+
+.btn-form-action {
+			  color: #007bff;
+			  text-align: center;
+			  vertical-align: middle;
+			  -webkit-user-select: none;
+			  -moz-user-select: none;
+			  -ms-user-select: none;
+			  user-select: none;
+			  background-color: transparent;
+			  border: 1px solid transparent;
+			  font-size: 1rem;
+			  border-radius: 0.25rem;
+			  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+			}
+			.btn-form-action:hover{
+				border: 1px rgba(100, 100, 200, 0.6) solid;
+				transition: 1s ease-in-out;
+			    text-decoration: none;
+			    background-color: transparent;
+			}
+			.btn-suppr{
+				color: rgba(250, 10, 10, 0.9);
+			}
+
+.form-suppr-input-mat{
+	visibility: hidden;
+	width: 3px;
+	pointer-events: none;
+}
+.form-suppr-input-mat:disabled{
+	visibility: hidden;
+	width: 3px;
+	pointer-events: none;
+}
+
+
+
